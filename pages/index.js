@@ -1,3 +1,5 @@
+
+
 import Link from 'next/link'
 
 
@@ -8,6 +10,5 @@ export default function Home() {
 <hr/>
 <Link href='/http://www,google.com.br'><a>GOOGLE</a></Link>
 </>
-
   )
 }
