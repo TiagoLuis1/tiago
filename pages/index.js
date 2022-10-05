@@ -1,14 +1,16 @@
 
-
-import Link from 'next/link'
-
+import Header from './header'
+import Footer from './footer'
 
 export default function Home() {
   return (
     <>
-    <h1>oi</h1>
-<hr/>
-<Link href='/http://www,google.com.br'><a>GOOGLE</a></Link>
-</>
+
+      <Header /> 
+      <hr />
+      <p>Página inicial</p>
+      <Footer />      
+     
+    </>
   )
 }
