@@ -4,11 +4,7 @@
 function Footer(){
     return(
    <>
-   <p>footer</p>
-   
-   
-   
-   
+   <Link href="http://www.google.com">Google</Link>
    </>
     )
    }

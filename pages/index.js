@@ -9,6 +9,8 @@ export default function Home() {
       <Header /> 
       <hr />
       <p>Página inicial</p>
+      <hr/>
+      
       <Footer />      
      
     </>
