@@ -1,18 +1,13 @@
 
-import Header from './header'
-import Footer from './footer'
-
+//import Link from 'next/link'
+import Topo from './topo'
+import Rodape from './rodape'
 export default function Home() {
   return (
     <>
-
-      <Header /> 
-      <hr />
-      <p>Página inicial</p>
-      <hr/>
-      
-      <Footer />      
-     
+     <Topo/>
+     <h3>Bom dia</h3>
+     <Rodape/>
     </>
   )
 }

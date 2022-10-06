@@ -1,18 +1,12 @@
-import Header from './header'
-import Footer from './footer'
-
-
-function pagina3() {
+import Topo from './topo'
+import Rodape from './rodape'
+//import Link from 'next/link'
+export default function pagina3(){
     return(
         <>
-        <Header />
-            
-            <p>pagina   3</p>
-
-        <Footer />
+           <Topo/>
+            <h3>OK</h3>
+           <Rodape/>
         </>
-
     )
 }
-
-export default pagina3

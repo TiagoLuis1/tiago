@@ -1,25 +1,12 @@
-import Header from './header'
-import Footer from './footer'
-
-
-function pagina2() {
+import Topo from './topo'
+import Rodape from './rodape'
+//import Link from 'next/link'
+export default function pagina2(){
     return(
         <>
-        <Header />
-            
-            <div>
-                <hr />
-
-                <label>Nome:</label>
-                <input type="text" />
-                    <button>Clique aqui</button>
-                <hr />
-            </div>
-
-        <Footer />
+           <Topo/>
+            <h3>OK</h3>
+           <Rodape/>
         </>
-
     )
 }
-
-export default pagina2
